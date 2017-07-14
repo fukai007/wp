@@ -1,0 +1,21 @@
+.w100{
+  width: 100px;
+}
+.h100{
+  height: 100px;
+}
+
+
+:local(.Block) {
+  width: 200px;
+  height: 200px;
+  background-color: #ffeb3b;
+  font-size: 30px;
+  text-align: center;
+  line-height: 200px;
+  display: flex;
+
+  .bt{
+    border: 1px solid red;
+  }
+}
